@@ -1,7 +1,6 @@
 resources:
   - repo: self
 queue:
-  name: Hosted Linux
   demands: npm
 
 steps:

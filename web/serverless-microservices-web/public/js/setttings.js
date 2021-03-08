@@ -12,5 +12,5 @@ window.apiBaseUrl = 'https://ridesharejhy.azure-api.net';
 window.apiDriversBaseUrl = `${window.apiBaseUrl}/d`;
 window.apiTripsBaseUrl = `${window.apiBaseUrl}/t`;
 window.apiPassengersBaseUrl = `${window.apiBaseUrl}/p`;
-windows.apiOrchedtratorBaseUrl = 'https://ridehareorchestratorsfunctionapp-jhy.azurewebsites.net/api';
+windows.apiOrchestratorBaseUrl = 'https://ridehareorchestratorsfunctionapp-jhy.azurewebsites.net/api';
 window.signalrInfoUrl = 'https://ridesharetripsfunctionapp-jhy.azurewebsites.net/api/signalrinfo';

@@ -21,8 +21,10 @@ export class Authentication {
       validateAuthority: false
     };
     this._userAgentApplication = new UserAgentApplication(
-      this._clientId,
-      this._authority,
+      //this._clientId,
+      //this._authority,
+      '0017dc7c-ad26-419f-8bcc-84db8de1d27f',
+      'https://relecloudrideshare.b2clogin.com/tfp/relecloudrideshare.onmicrosoft.com/B2C_1_jhyrideshare/v2.0',
       cb,
       opts
     );

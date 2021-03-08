@@ -12,9 +12,9 @@ let logger = new Logger((level, message, containsPii) => {
 export class Authentication {
   constructor() {
     // The window values below should by set by public/js/settings.js
-    this._scopes = ['https://ridesharejhy.onmicrosoft.com/api/rideshare'];//''window.authScopes;
-    this._clientId = '0017dc7c-ad26-419f-8bcc-84db8de1d27f';//window.authClientId;
-    this._authority ='https://ridesharejhy.b2clogin.com/tfp/ridesharejhy.onmicrosoft.com/b2c_1_jhyrideshare/v2.0';// window.authAuthority;
+    this._scopes = window.authScopes;
+    this._clientId = window.authClientId;
+    this._authority = window.authAuthority;
 
     var cb = this._tokenCallback.bind(this);
     var opts = {

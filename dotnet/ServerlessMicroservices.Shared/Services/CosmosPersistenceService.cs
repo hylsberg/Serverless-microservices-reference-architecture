@@ -350,7 +350,7 @@ namespace ServerlessMicroservices.Shared.Services
                 var response = await(await GetDocDBClient(_settingService)).DeleteDocumentAsync(link, requestOptions);
                 cost += response.RequestCharge;
 
-                //TODO: Also delete the associated driver location items
+                //TODO: Also delete the associated driver location items ok
             }
             catch (Exception ex)
             {
